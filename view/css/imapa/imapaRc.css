@@ -93,8 +93,11 @@ section {
     width: 3vw;
     height: 7.5vh;
 
-    border: none;
     background-color: transparent;
+}
+
+#perfil_fechar:hover{
+    cursor: pointer;
 }
 
 #perfil_close_btns{
@@ -118,11 +121,72 @@ section {
     background-color: rgb(255, 255, 255);
 }
 
-#perfil_base {
+/* menus */
+
+#menus {
+    width: 200vw;
+    height: 35vh;
+
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s ease-in-out;
+}
+
+.menu {
     width: 30vw;
-    height: 85vh;
+    height: 90vh;
 
-    margin-right: 0;
+    margin-right: 70vw;
+}
 
-    background-color: rgb(255, 0, 0);
+#menu_0 {
+    background-color: transparent;
+}
+
+#menu_1 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: rgb(151, 151, 151);
+}
+
+#menu_barra{
+    width: 30vw;
+    height: 7.5vh;
+
+    background-color: rgb(199, 199, 199);
+}
+
+#menu_fechar{
+    width: 3vw;
+    height: 7.5vh;
+
+    border: none;
+    background-color: transparent;
+}
+
+#menu_close_btns{
+    width: 30vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu_close_btn{
+    width: 20vw;
+    height: 5vh;
+
+    border-radius: 2vw;
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
 }
