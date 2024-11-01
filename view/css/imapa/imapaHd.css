@@ -1,0 +1,52 @@
+header {
+    width: 100vw;
+    height: 10vh;
+  
+    position: absolute;
+    left: 0;
+    top: 0;
+  
+    background-color: rgb(151, 151, 151);
+  
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  #nome_site {
+    width: 20vw;
+    text-align: center;
+    margin: 0 25vw;
+  }
+  
+  #nome_site:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+  
+  #btn_perfil {
+    width: 8vh;
+    height: 8vh;
+  
+    margin: 0 5vw;
+  
+    align-items: center;
+  
+    border-radius: 50%;
+    border: none;
+  
+    background-color: rgb(217, 217, 217);
+  }
+  
+  #btn_perfil:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  
+  #i_perfil {
+    width: 10vh;
+    height: 10vh;
+
+    margin: 4vh -2.25vw
+  }
+  

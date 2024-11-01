@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="./../css/imapa/imapa.css" />
+    <script src="https://kit.fontawesome.com/ed59c0f9fe.js" crossorigin="anonymous"></script>
+    <script type="module" src="./../../controller/imapaCt/perfil_imapa.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="nome_site">Trash Point</h1>
+        <button id="btn_perfil" onclick="trocarBanner(1)">
+            <i id="i_perfil" class="fa-solid fa-user fa-2xl"></i>
+        </button>
+        <!-- java pra puxar a tela da direita -->
+    </header>
+    <section id="section">
+        <div id="barraPesquisa">
+            <input id="search" type="text" placeholder="Escreva Aqui" />
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </div>
+        <nav id="mapa"></nav>
+
+        <nav id="banners">
+            <div class="banner" id="banner_0">
+                <div class="texto"></div>
+            </div>
+            <div class="banner" id="banner_1">
+                <div class="texto">
+                    <div id="perfil_barra">
+                        <button id="perfil_fechar" onclick="trocarBanner(0)">
+                            <i class="fa-solid fa-xmark fa-2xl"></i>
+                        </button>
+                    </div>
+                    <div id="perfil_close_btns">
+                        <div >
+                            <button class="perfil_close_btn">
+                                <h1>Historico de Entregas</h1>
+                            </button>
+                        </div>
+                        <div >
+                            <button class="perfil_close_btn">
+                                <h1>Pontos Salvos</h1>
+                            </button>
+                        </div>
+                        <div >
+                            <button class="perfil_close_btn">
+                                <h1>Sair da conta</h1>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+    </section>
+    <footer>
+        <div id="menu">
+            <button id="menu_i">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </button>
+        </div>
+        <!-- puxa a tela da esquerda -->
+        <div id="menu_aberto"></div>
+    </footer>
+</body>
+
+</html>

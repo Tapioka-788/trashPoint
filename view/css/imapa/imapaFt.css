@@ -1,0 +1,31 @@
+footer {
+    width: 3vw;
+    height: 90vh;
+    background-color: rgb(98, 98, 98);
+  
+    margin-top: 10vh;
+  
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  #menu_i {
+    width: 2.5vw;
+    height: 2.5vw;
+  
+    border-radius: 1vw;
+    border: none;
+  
+    margin: 0.25vw;
+  
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+  }
+  
+  #menu_i:hover {
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+    transform: scale(1.01);
+  }
+  
