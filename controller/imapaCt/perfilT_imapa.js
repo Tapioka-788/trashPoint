@@ -5,6 +5,6 @@ section.appendChild(banners)
 
 export function trocarBanner(numeroBanner) {
 
-    banners.style.left = '-' + numeroBanner + '00vw';
+    banners.style.top = '-' + numeroBanner + '0vh';
     console.log('oi')
 }

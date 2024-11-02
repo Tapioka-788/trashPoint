@@ -14,15 +14,18 @@
 <body>
     <header>
         <h1 id="nome_site">Trash Point</h1>
-        <button id="btn_perfil" onclick="trocarBanner(1)">
+        <button id="btn_perfil" onclick="trocarBanner(11)">
             <i id="i_perfil" class="fa-solid fa-user fa-2xl"></i>
         </button>
         <!-- java pra puxar a tela da direita -->
     </header>
     <section id="section">
-        <div id="barraPesquisa">
-            <input id="search" type="text" placeholder="Escreva Aqui" />
-            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <div id="conteudos">
+            <div id="barraPesquisa">
+                <input id="search" type="text" placeholder="Escreva Aqui" />
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            </div>
+            <h1 id="lembrete">AQUI VAI UMA API DE MAPA INTERATIVO</h1>
         </div>
         <div id="mapa"></div>
 
@@ -38,18 +41,21 @@
                         </button>
                     </div>
                     <div id="perfil_close_btns">
-                        <div >
-                            <button class="perfil_close_btn">
-                                <h1>Historico de Entregas</h1>
-                            </button>
+                        <div id="btns_banner3">
+                            <div>
+                                <button class="perfil_close_btn">
+                                    <h1>Historico de Entregas</h1>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="perfil_close_btn">
+                                    <h1>Pontos Salvos</h1>
+                                </button>
+                            </div>
                         </div>
-                        <div >
+                        <div>
                             <button class="perfil_close_btn">
-                                <h1>Pontos Salvos</h1>
-                            </button>
-                        </div>
-                        <div >
-                            <button class="perfil_close_btn">
+                                <!-- aqui fecha o banner direito -->
                                 <h1>Sair da conta</h1>
                             </button>
                         </div>
@@ -59,7 +65,7 @@
         </nav>
 
         <!-- menus -->
-        
+
         <nav id="menus">
             <div class="menu" id="menu_0">
                 <div class="textoM"></div>
@@ -72,31 +78,47 @@
                         </button>
                     </div>
                     <div id="menu_close_btns">
-                        <div >
+                        <div>
                             <button class="menu_close_btn">
-                                <h1>Historico de Entregas</h1>
+                                <h1>Lixo tipo ABC</h1>
                             </button>
                         </div>
-                        <div >
+                        <div>
                             <button class="menu_close_btn">
-                                <h1>Pontos Salvos</h1>
+                                <h1>Lixo tipo DEF</h1>
                             </button>
                         </div>
-                        <div >
+                        <div>
                             <button class="menu_close_btn">
-                                <h1>Sair da conta</h1>
+                                <h1>Lixo tipo GHI</h1>
+                            </button>
+                        </div>
+                        <div>
+                            <button class="menu_close_btn">
+                                <h1>Lixo tipo JKL</h1>
+                            </button>
+                        </div>
+                        <div>
+                            <button class="menu_close_btn">
+                                <h1>Lixo tipo MNO</h1>
+                            </button>
+                        </div>
+                        <div>
+                            <button class="menu_close_btn">
+                                <h1>Lixo tipo PQR</h1>
                             </button>
                         </div>
                     </div>
+                    <button id="verMais">
+                        <h1>Ver mais ...</h1>
+                    </button>
                 </div>
             </div>
-
-
         </nav>
     </section>
     <footer>
         <div id="menu">
-            <button id="menu_i" onclick="trocarMenu(1)">
+            <button id="menu_i" onclick="trocarMenu(11)">
                 <i class="fa-solid fa-bars fa-2xl"></i>
             </button>
         </div>

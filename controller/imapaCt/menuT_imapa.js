@@ -5,6 +5,6 @@ section.appendChild(menus)
 
 export function trocarMenu(numeroMenu) {
 
-    menus.style.left = '-' + numeroMenu + '00vw';
+    menus.style.top = '-' + numeroMenu + '0vh';
     console.log('ola')
 }

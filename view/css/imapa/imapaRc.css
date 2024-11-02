@@ -9,6 +9,17 @@ section {
     top: 0;
 }
 
+#conteudos{
+    width: 40vw;
+    height: 20vh;
+    
+    margin: 5vh 30vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #barraPesquisa {
     width: 40vw;
     height: 5vh;
@@ -22,12 +33,16 @@ section {
 }
 
 #mapa {
-    background-color: green;
+    background-color: lightgreen;
     width: 98vw;
     height: 90vh;
 
-    margin-top: -7.7vw;
+    margin-top: -30vh;
     text-align: center;
+}
+
+#lembrete{
+    margin-top: 20vh;
 }
 
 #barraPesquisa i {
@@ -51,15 +66,16 @@ section {
 }
 
 #banners {
-    width: 200vw;
-    height: 35vh;
+    width: 30vw;
+    height: 200vh;
 
     position: absolute;
     top: 0vh;
-    left: 0vw;
+    /* -110vh aparece a tela */
+    right: 0vw;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transition: 0.3s ease-in-out;
 }
 
@@ -67,7 +83,7 @@ section {
     width: 30vw;
     height: 90vh;
 
-    margin-left: 70vw;
+    margin-top: 10vh;
 }
 
 #banner_0 {
@@ -91,7 +107,10 @@ section {
 
 #perfil_fechar{
     width: 3vw;
-    height: 7.5vh;
+    height: 3vw;
+
+    border-radius: 50%;
+    margin: 0.5vw;
 
     background-color: transparent;
 }
@@ -121,18 +140,30 @@ section {
     background-color: rgb(255, 255, 255);
 }
 
+#btns_banner3{
+    width: 30vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 /* menus */
 
 #menus {
-    width: 200vw;
-    height: 35vh;
+    width: 30vw;
+    height: 200vh;
 
     position: absolute;
     top: 0vh;
+    /* -110vh aparece a tela */
     left: 0vw;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transition: 0.3s ease-in-out;
 }
 
@@ -140,7 +171,7 @@ section {
     width: 30vw;
     height: 90vh;
 
-    margin-right: 70vw;
+    margin-top: 10vh;
 }
 
 #menu_0 {
@@ -160,22 +191,29 @@ section {
     height: 7.5vh;
 
     background-color: rgb(199, 199, 199);
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 #menu_fechar{
     width: 3vw;
-    height: 7.5vh;
+    height: 3vw;
 
-    border: none;
+    border-radius: 50%;
+    margin: 0.5vw;
+
     background-color: transparent;
 }
 
 #menu_close_btns{
     width: 30vw;
-    height: 90vh;
+    height: 60vh;
 
     display: flex;
     flex-direction: column;
+    margin-top: 10vh;
 
     align-items: center;
     justify-content: space-evenly;
@@ -189,4 +227,14 @@ section {
     text-align: center;
 
     background-color: rgb(255, 255, 255);
+}
+
+#verMais{
+    width: 30vw;
+    height: 5vh;
+
+    text-align: center;
+
+    background-color: transparent;
+    border: none;
 }
